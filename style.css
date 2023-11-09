@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color :powderblue;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #signup-page, #login-page, #todo-page {
+    background-color:palegreen;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: #01080b;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #signup-notification, #login-notification {
+    margin-top: 10px;
+    color: #4caf50;
+  }
+  
+  #signup-notification::before, #login-notification::before {
+    content: "👍";
+    margin-right: 5px;
+  }
+  
